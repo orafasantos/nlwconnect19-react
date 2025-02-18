@@ -2,6 +2,9 @@
 
 
 
+<img src="https://github.com/user-attachments/assets/fb9cd06c-233d-489f-b333-07852046a633" width="640">
+
+
 <p align="center">
   <img" alt="NLW Connect19 - Connected to the Future" width="100%">
 </p>
@@ -13,7 +16,7 @@ Project developed during NLW Connect19 by Rocketseat. A web application built wi
 ## 🚀 Tech Stack
 
 ```
-📱 Frontend:
+📱 Techs
 - React
 - TypeScript
 - Next.js
