@@ -5,6 +5,8 @@ import { Stats } from "./stats";
 import { InviteLinkInput } from "./invite-link-input";
 
 export default function InvitePage() {
+	const InviteLink = "http://localhost:3000/invite/129371893763191381";
+
 	return (
 		<div className="min-h-dvh flex items-center justify-between gap-16 flex-col md:flex-row">
 			<div className="flex flex-col gap-10 w-full max-w-[550px]">
@@ -17,6 +19,7 @@ export default function InvitePage() {
 						Para entrar no evento, acesse o link enviado para seu e-mail.
 					</p>
 				</div>
+
 				<div className="space-y-6">
 					<div className="space-y-3">
 						<h2 className="text-gray-200 text-xl font-heading font-semibold leading-none">
@@ -28,7 +31,7 @@ export default function InvitePage() {
 							inscrições:
 						</p>
 					</div>
-					<InviteLinkInput />
+					<InviteLinkInput InviteLink={InviteLink} />
 					<Stats />
 				</div>
 			</div>
